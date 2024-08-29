@@ -1,0 +1,156 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.top-bar {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+p{
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+header .logo {
+    font-size: 45px;
+    font-family: "Sedan SC", serif;
+    margin-left: 56px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 150px;
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+   
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.icons a {
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+
+.main-banner {
+    text-align: center;
+    height: 100%;
+    padding: 50px 0;
+    
+}
+
+.main-banner .banner-image {
+ 
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.main-banner h1 {
+    font-size: 48px;
+    margin-top: 20px;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+  
+}
+
+.category {
+    text-align: center;
+}
+
+.category img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.category a {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+   
+}
+.quadrado{
+    background-color: #F0F0F0;
+    border-radius: 10px;
+    height: 100px;
+    margin-left:150px;
+   
+}
+
+.logo-large img {
+    width: 100px;
+    height: 100px;
+}
+
+.about-text {
+    max-width: 600px;
+    text-align: center;
+}
+
+.about-text p {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 100px;
+}
+
+.team,
+.contact {
+    text-align: right;
+}
+hr{
+    width: 93%;
+    margin-left: 50px;
+
+}
